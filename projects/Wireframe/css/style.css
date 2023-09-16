@@ -1,0 +1,85 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 24px;
+  background-color:rgb(4, 41, 61);
+  color: honeydew;
+  font-family: "Oswald";
+}
+
+h1 {
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+.container {
+  border: 2px solid black;  
+  margin-bottom: 20px;  
+}
+
+h2 {
+  margin-left: 20px;
+  font-family: "Genos";
+  font-weight: 500;
+}
+
+p {
+  margin-left: 20px;
+  font-family: "Space Grotesk";
+}
+
+.color-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-items: space-between; 
+  margin-left: 20px; 
+  gap: 10px;
+}
+
+.color-panel {
+  width: 400px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.red-glare {
+  background-color: #eb4034;
+}
+
+.dusky-yellow {
+  background-color: #cc9d1d;
+}
+
+.sky-blue {
+  background-color: #1d89cc;
+}
+
+.racing-green {
+  background-color: #043618;
+}
+
+.font-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-items: space-between;
+  align-items: center; 
+  margin-left: 20px; 
+  gap: 60px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.genos {
+  font-family: "Genos";
+}
+
+.space-grotesk {
+  font-family: "Space Grotesk";
+}

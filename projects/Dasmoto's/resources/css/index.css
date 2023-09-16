@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(156, 238, 238);
+  font-size: 18px;
+}
+
+header {
+  background-image: url("../images/pattern.jpeg");
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.products {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 2px;
+  margin: 1rem;
+  color: white;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+}
+
+#brushes {
+  background-color: mediumspringgreen;
+}
+
+#frames {
+  background-color: lightcoral;
+}
+
+#paint {
+  background-color: skyblue;
+}
+
+.pics, h3, p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2px;
+  margin: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+span {  
+  font-weight: bold;
+  color: blue;
+}
